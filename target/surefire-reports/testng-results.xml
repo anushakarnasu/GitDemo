@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-16T08:14:03 IST" name="Command line suite" finished-at="2019-11-16T08:15:47 IST" duration-ms="104023">
+    <groups>
+    </groups>
+    <test started-at="2019-11-16T08:14:03 IST" name="Command line test" finished-at="2019-11-16T08:15:47 IST" duration-ms="104023">
+      <class name="bcdd.CobpTest">
+        <test-method signature="enterMsisdn()[pri:0, instance:bcdd.CobpTest@2f7298b]" started-at="2019-11-16T08:14:03 IST" name="enterMsisdn" finished-at="2019-11-16T08:14:03 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMsisdn -->
+        <test-method signature="existingCustomer()[pri:0, instance:bcdd.CobpTest@2f7298b]" started-at="2019-11-16T08:14:03 IST" name="existingCustomer" finished-at="2019-11-16T08:14:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingCustomer -->
+      </class> <!-- bcdd.CobpTest -->
+      <class name="bcdd.loginTest">
+        <test-method signature="bloginTest(java.lang.String, java.lang.String)[pri:0, instance:bcdd.loginTest@188715b5]" started-at="2019-11-16T08:14:03 IST" name="bloginTest" data-provider="getData" finished-at="2019-11-16T08:14:39 IST" duration-ms="35696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bloginTest -->
+        <test-method signature="bloginTest(java.lang.String, java.lang.String)[pri:0, instance:bcdd.loginTest@188715b5]" started-at="2019-11-16T08:14:39 IST" name="bloginTest" data-provider="getData" finished-at="2019-11-16T08:15:11 IST" duration-ms="32254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaabb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bloginTest -->
+        <test-method signature="bloginTest(java.lang.String, java.lang.String)[pri:0, instance:bcdd.loginTest@188715b5]" started-at="2019-11-16T08:15:11 IST" name="bloginTest" data-provider="getData" finished-at="2019-11-16T08:15:47 IST" duration-ms="35934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaacc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bloginTest -->
+      </class> <!-- bcdd.loginTest -->
+      <class name="bcdd.NewTest">
+        <test-method signature="browser()[pri:0, instance:bcdd.NewTest@1ea9f6af]" started-at="2019-11-16T08:15:47 IST" name="browser" finished-at="2019-11-16T08:15:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="login()[pri:0, instance:bcdd.NewTest@1ea9f6af]" started-at="2019-11-16T08:15:47 IST" name="login" finished-at="2019-11-16T08:15:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- bcdd.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
